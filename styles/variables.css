@@ -1,0 +1,15 @@
+:root {
+  --theme-primary-color: hsl(245, 75%, 52%);
+  --theme-primary-hover-color: hsl(245, 83%, 68%);
+  --theme-primary-br-color: hsl(225, 100%, 94%);
+  --theme-neutral-br-color: hsl(225, 100%, 98%);
+  --theme-neutral-ds-color: hsl(224, 23%, 55%);
+  --theme-neutral-dp-color: hsl(223, 47%, 23%);
+
+  --theme-font-size: 1rem;
+  --theme-alt-font-size: 0.875rem;
+  --theme-border-radius: 1.375rem;
+  --theme-button-sizing: 22.125rem;
+  --theme-button-radius: 0.875rem;
+  --theme-letter-spacing: -0.02rem;
+}

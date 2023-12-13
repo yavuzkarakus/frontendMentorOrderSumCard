@@ -1,0 +1,215 @@
+@import url(variables.css);
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-weight: normal;
+  font-size: var(--theme-font-size);
+  text-decoration: none;
+  color: black;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  /* overflow: hidden; */
+  background-image: url(../images/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: 100vw;
+  background-color: var(--theme-primary-br-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Red Hat Display", sans-serif;
+}
+
+.container {
+  background-color: var(--theme-neutral-br-color);
+  width: 28.125rem;
+  height: auto;
+  border-radius: var(--theme-border-radius);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 1rem 2rem hsla(224, 23%, 55%, 15%);
+}
+
+.text-container {
+  margin: 2.75rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.container img {
+  border-radius: var(--theme-border-radius) var(--theme-border-radius) 0 0;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+header h1 {
+  font-size: 1.75rem;
+  font-weight: 900;
+  color: var(--theme-neutral-dp-color);
+}
+
+header p {
+  color: var(--theme-neutral-ds-color);
+  text-align: center;
+  padding: 0 4rem;
+  line-height: 1.5rem;
+  font-weight: 500;
+  letter-spacing: var(--theme-letter-spacing);
+}
+
+main {
+  width: var(--theme-button-sizing);
+  border-radius: var(--theme-button-radius);
+  padding: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: hsla(224, 23%, 55%, 5%);
+}
+
+main .left-part {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.left-part .annual-plan h2 {
+  color: var(--theme-neutral-dp-color);
+  font-weight: 900;
+  font-size: var(--theme-alt-font-size);
+  margin-bottom: 0.3rem;
+}
+
+.left-part .annual-plan p {
+  color: var(--theme-neutral-ds-color);
+  font-size: var(--theme-alt-font-size);
+}
+
+main a {
+  color: var(--theme-primary-color);
+  font-weight: 700;
+  font-size: 0.85rem;
+  text-decoration: underline;
+  letter-spacing: var(--theme-letter-spacing);
+}
+
+main a:hover {
+  color: var(--theme-primary-hover-color);
+  text-decoration: none;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+footer button {
+  background-color: var(--theme-primary-color);
+  color: var(--theme-neutral-br-color);
+  border: none;
+  padding: 1rem;
+  font-family: "Red Hat Display", sans-serif;
+  font-size: var(--theme-alt-font-size);
+  font-weight: 700;
+  width: var(--theme-button-sizing);
+  border-radius: var(--theme-button-radius);
+  box-shadow: 0 1rem 1.5rem hsla(245, 75%, 52%, 20%);
+}
+
+footer button:hover {
+  cursor: pointer;
+  background-color: var(--theme-primary-hover-color);
+}
+
+footer a {
+  font-size: var(--theme-alt-font-size);
+  font-weight: 900;
+  color: var(--theme-neutral-ds-color);
+}
+
+footer a:hover {
+  color: var(--theme-neutral-dp-color);
+}
+
+@media screen and (max-width: 426px) {
+  .container {
+    width: 25rem;
+    height: auto;
+  }
+
+  .container img {
+    width: 25rem;
+    height: auto;
+  }
+
+  header p {
+    font-size: 1.125rem;
+    line-height: 1.875rem;
+    padding: 0 3.5rem;
+  }
+
+  main {
+    padding: 1.5rem;
+  }
+
+  main .left-part {
+    gap: 1.5rem;
+  }
+
+  .left-part svg {
+    transform: scale(1.15);
+  }
+}
+
+@media screen and (max-width: 376px) {
+  .container {
+    width: 20.438rem;
+  }
+
+  .container img {
+    width: 20.438rem;
+  }
+
+  .text-container {
+    margin: 2rem 0;
+  }
+
+  header h1 {
+    font-size: 1.5rem;
+  }
+
+  header p {
+    font-size: 1rem;
+    line-height: 1.75rem;
+    padding: 0 2rem;
+  }
+
+  main {
+    width: 17.438rem;
+    padding: 1.25rem;
+  }
+
+  footer {
+    gap: 1.5rem;
+  }
+
+  footer button {
+    width: 17.438rem;
+  }
+}
