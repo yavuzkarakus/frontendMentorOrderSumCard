@@ -14,8 +14,8 @@ Hello everyone! 😉
 
 ### 🔗 Links
 
-- CodeSandbox URL: [https://553vgx.csb.app](https://553vgx.csb.app)
-- Live Site URL: [https://frontend-mentor-product-card-seven.vercel.app/](https://frontend-mentor-product-card-seven.vercel.app/)
+- CodeSandbox URL: [https://qy8cf2.csb.app](https://qy8cf2.csb.app)
+- Live Site URL: [https://yavuzkarakus.github.io/frontendMentorOrderSumCard](https://yavuzkarakus.github.io/frontendMentorOrderSumCard)
 
 ## 🚀 My process
 
