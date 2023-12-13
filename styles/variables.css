@@ -5,6 +5,7 @@
   --theme-neutral-br-color: hsl(225, 100%, 98%);
   --theme-neutral-ds-color: hsl(224, 23%, 55%);
   --theme-neutral-dp-color: hsl(223, 47%, 23%);
+  --theme-bg-color: white;
 
   --theme-font-size: 1rem;
   --theme-alt-font-size: 0.875rem;

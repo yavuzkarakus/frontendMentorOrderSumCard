@@ -26,7 +26,7 @@ body {
 }
 
 .container {
-  background-color: var(--theme-neutral-br-color);
+  background-color: var(--theme-bg-color);
   width: 28.125rem;
   height: auto;
   border-radius: var(--theme-border-radius);
@@ -121,12 +121,12 @@ footer {
 
 footer button {
   background-color: var(--theme-primary-color);
-  color: var(--theme-neutral-br-color);
+  color: var(--theme-bg-color);
   border: none;
   padding: 1rem;
   font-family: "Red Hat Display", sans-serif;
   font-size: var(--theme-alt-font-size);
-  font-weight: 700;
+  font-weight: 900;
   width: var(--theme-button-sizing);
   border-radius: var(--theme-button-radius);
   box-shadow: 0 1rem 1.5rem hsla(245, 75%, 52%, 20%);
